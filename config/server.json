@@ -1,0 +1,4 @@
+{
+  "PORT": "%{SERVER_PORT|3000}",
+  "LOG_DIR":"logs/server.txt"
+}
