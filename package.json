@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.15.0",
-    "log": "^1.4.0",
-    "read-config": "^2.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel app/index,js -o compiled.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.0",
+    "mongoose": "^4.8.6",
+    "read-config": "^2.0.0",
+    "log": "^1.4.0"
+  }
 }
